@@ -18,10 +18,10 @@ int main (void)
 	charges(&charge, &avgcost, hours);	// variables with & are ones you wanna change
 	round_money(&charge, &avgcost);		// more changing
 
-	fprintf(outfile, "customer: %d\n", customer);
-	fprintf(outfile, "charge: %lf\n", charge);
-	fprintf(outfile, "average cost: %lf\n", avgcost);
-	fprintf(outfile, "&charge: %d\n", &charge);
+	fprintf(outfile, "Customer number: %d\n", customer);
+	fprintf(outfile, "Charge: $%.2lf\n", charge);
+	fprintf(outfile, "Average Cost: $%.2lf\n", avgcost);
+	fprintf(outfile, "**DEBUG** &charge (address of charge): %d\n", &charge);
 
 	fclose (infile);
 	fclose (outfile);

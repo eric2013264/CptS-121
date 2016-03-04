@@ -1,4 +1,4 @@
-customer: 22222
-charge: 17.940000
-average cost: 1.200000
-&charge: 2621004
+Customer number: 42042
+Charge: $35.85
+Average Cost: $1.49
+**DEBUG** &charge (address of charge): 2619708
