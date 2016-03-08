@@ -1,3 +1,0 @@
-﻿  Main.cpp
-c:\users\eric chen\desktop\lab7p1\lab7p1\main.cpp(24): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double *'
-  Lab7P1.vcxproj -> C:\Users\Eric Chen\Desktop\Lab7P1\Debug\Lab7P1.exe

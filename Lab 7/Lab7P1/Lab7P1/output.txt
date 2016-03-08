@@ -1,4 +1,0 @@
-Customer number: 42042
-Charge: $35.85
-Average Cost: $1.49
-**DEBUG** &charge (address of charge): 2619708
